@@ -1,7 +1,7 @@
 # Flutter : Project Hello World
 
 
-### BEGIN :
+#### &#x1F530; BEGIN :
 
     ❯ flutter create project_helloworld
 
@@ -42,7 +42,7 @@
             This app is linked to the debug service: ws://127.0.0.1:52692/igROaT4B9s4=/ws
 
 
-### Code :
+#### &#x1FAB6; Code :
 
 Edit :
 
@@ -77,7 +77,7 @@ Edit :
         }
         }
 
-### Run and Result : 
+#### &#x1F525; Run and Result : 
 
 
     ❯ flutter run
@@ -103,7 +103,7 @@ Edit :
 
 
 
-### Notes :
+#### &#x1FAA7; Notes :
 
     ❯ flutter --version
 
