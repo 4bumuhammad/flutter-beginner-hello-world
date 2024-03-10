@@ -49,33 +49,39 @@ Edit :
     ❯ vim /project_helloworld/lib/main.dart
 
 
-        import 'package:flutter/material.dart';
+            import 'package:flutter/material.dart';
 
-        void main() {
-        runApp(const MyApp());
-        }
+            void main() {
+            runApp(const MyApp());
+            }
 
-        class MyApp extends StatelessWidget {
-        const MyApp({super.key});
+            class MyApp extends StatelessWidget {
+            const MyApp({super.key});
 
-        @override
-        Widget build(BuildContext context) {
-            return MaterialApp(
-            title: 'Flutter Demo',
-            theme: ThemeData(
-                colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
-                useMaterial3: true,
-            ),
-            home: Scaffold(
-                appBar: AppBar(
-                backgroundColor: Colors.blue,
-                title:  const Text('My First App'),
+            @override
+            Widget build(BuildContext context) {
+                return MaterialApp(
+                title: 'Flutter Demo',
+                theme: ThemeData(
+                    colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
+                    useMaterial3: true,
                 ),
-                body: Center(child:Text('Hello World')),
-            ),
-            );
-        }
-        }
+                home: Scaffold(
+                    appBar: AppBar(
+                    backgroundColor: Colors.blue,
+                    title:  const Text('Welcome to My Flutter App!'),
+                    ),
+                    body: Center(child:Text(
+                            'Hello World',
+                            style: TextStyle(fontSize: 38.0),
+                        ),
+                    ),
+                ),
+                );
+            }
+            }
+
+
 
 #### &#x1F525; Run and Result : 
 
@@ -96,7 +102,7 @@ Edit :
 
 
 <p align="center">
-    <img src="./ss_project_helloworld.png" alt="ss_project_helloworld" style="display: block; margin: 0 auto;">
+    <img src="./ss_project_helloworld-1.png" alt="ss_project_helloworld" style="display: block; margin: 0 auto;">
 </p>
 
 
